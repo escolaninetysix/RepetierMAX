@@ -225,12 +225,12 @@ A good start is 30 lower then the optimal value. You need to leave room for cool
 */
 #define EXT0_PID_INTEGRAL_DRIVE_MIN 60
 /** P-gain.  Overridden if EEPROM activated. */
-#define EXT0_PID_P   18.89 // SeeMeCnc 13.83,   V6 18.89
+#define EXT0_PID_P   35.01 // SeeMeCnc 13.83,   V6 18.89
 /** I-gain. Overridden if EEPROM activated.
 */
-#define EXT0_PID_I   1.90 // SeeMeCNC 0.57, V6 1.90
+#define EXT0_PID_I   1.74 // SeeMeCNC 0.57, V6 1.90
 /** Dgain.  Overridden if EEPROM activated.*/
-#define EXT0_PID_D 47.04 // SeeMeCNC 84.71, V6 47.04
+#define EXT0_PID_D 175.75 // SeeMeCNC 84.71, V6 47.04
 // maximum time the heater is can be switched on. Max = 255.  Overridden if EEPROM activated.
 #define EXT0_PID_MAX 255
 /** \brief Faktor for the advance algorithm. 0 disables the algorithm.  Overridden if EEPROM activated.
