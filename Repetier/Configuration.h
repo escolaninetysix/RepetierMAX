@@ -154,7 +154,7 @@ Overridden if EEPROM activated.*/
 //  Set to 92.4 for EZStruder direct drive extruder with rambo 1.1 on boards that are 1/16 stepping, 584 for steves extruder with rambo 1.1 on, and cut values
 //  in half for 1/8 stepping on rambo 1.0 and earlier boards
 // ############################
-#define EXT0_STEPS_PER_MM  92.64 // The number of steps the extruder stepper moter must move to move the filament 1 mm.
+#define EXT0_STEPS_PER_MM  92.4 // The number of steps the extruder stepper moter must move to move the filament 1 mm.
 // What type of sensor is used?
 // 1 is 100k thermistor (Epcos B57560G0107F000 - RepRap-Fab.org and many other)
 // 2 is 200k thermistor
